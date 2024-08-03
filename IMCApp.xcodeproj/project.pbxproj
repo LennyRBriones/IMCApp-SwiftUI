@@ -14,6 +14,7 @@
 		8CD2B8002C5DCD4000B37E14 /* IMCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B7FF2C5DCD4000B37E14 /* IMCAppTests.swift */; };
 		8CD2B80A2C5DCD4000B37E14 /* IMCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B8092C5DCD4000B37E14 /* IMCAppUITests.swift */; };
 		8CD2B80C2C5DCD4000B37E14 /* IMCAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B80B2C5DCD4000B37E14 /* IMCAppUITestsLaunchTests.swift */; };
+		8CD2B8192C5DCDDC00B37E14 /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B8182C5DCDDC00B37E14 /* IMCView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8CD2B8052C5DCD4000B37E14 /* IMCAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2B8092C5DCD4000B37E14 /* IMCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCAppUITests.swift; sourceTree = "<group>"; };
 		8CD2B80B2C5DCD4000B37E14 /* IMCAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CD2B8182C5DCDDC00B37E14 /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				8CD2B7F02C5DCD3F00B37E14 /* ContentView.swift */,
 				8CD2B7F22C5DCD4000B37E14 /* Assets.xcassets */,
 				8CD2B7F42C5DCD4000B37E14 /* Preview Content */,
+				8CD2B8182C5DCDDC00B37E14 /* IMCView.swift */,
 			);
 			path = IMCApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD2B7F12C5DCD3F00B37E14 /* ContentView.swift in Sources */,
+				8CD2B8192C5DCDDC00B37E14 /* IMCView.swift in Sources */,
 				8CD2B7EF2C5DCD3F00B37E14 /* IMCAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

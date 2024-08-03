@@ -33,14 +33,16 @@ struct IMCView: View {
                     CounterButton(text: "Age", number: $age )
                     CounterButton(text: "Weight", number: $weight )
                 }
-                IMCCalculatorButton(userWeight: weight, userHeight: Int(height))
-            }.frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(.backgroundApp)
-                .toolbar{
-                    ToolbarItem(placement: .principal){
-                        Text("IMC Calculator").bold().foregroundColor(.white)
-                    }
+                IMCCalculatorButton(userWeight: Double(weight), userHeight: height)
+            }
+            .padding(.top, 1)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.backgroundApp)
+            .toolbar{
+                ToolbarItem(placement: .principal){
+                    Text("IMC Calculator").bold().foregroundColor(.white)
                 }
+            }
             
             //        Set the backbutton hidden
             
@@ -78,7 +80,7 @@ struct ToggleButton:View{
                     .foregroundColor(.white)
                 InformationText(text: text)
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(color)
+                .background(color).cornerRadius(16)
         }
     }
 }
@@ -158,17 +160,18 @@ struct CounterButton:View {
 }
 
 struct IMCCalculatorButton:View {
-    let userWeight:Int
-    let userHeight:Int
+    let userWeight:Double
+    let userHeight:Double
     
     var body: some View {
         NavigationStack{
             NavigationLink(destination:{IMCResult(userWeight: userWeight, userHeight: userHeight)}){
                 Text("Calculate").font(.title).bold().foregroundColor(.purple)
-                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-                    .background(.backgroundComponent)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 100)
+                    .background(.backgroundComponent).cornerRadius(16)
             }
         }
+        Spacer()
     }
 }
 

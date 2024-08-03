@@ -15,6 +15,7 @@
 		8CD2B80A2C5DCD4000B37E14 /* IMCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B8092C5DCD4000B37E14 /* IMCAppUITests.swift */; };
 		8CD2B80C2C5DCD4000B37E14 /* IMCAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B80B2C5DCD4000B37E14 /* IMCAppUITestsLaunchTests.swift */; };
 		8CD2B8192C5DCDDC00B37E14 /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B8182C5DCDDC00B37E14 /* IMCView.swift */; };
+		8CD2B81B2C5E06ED00B37E14 /* IMCResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B81A2C5E06ED00B37E14 /* IMCResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8CD2B8092C5DCD4000B37E14 /* IMCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCAppUITests.swift; sourceTree = "<group>"; };
 		8CD2B80B2C5DCD4000B37E14 /* IMCAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CD2B8182C5DCDDC00B37E14 /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
+		8CD2B81A2C5E06ED00B37E14 /* IMCResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				8CD2B7F22C5DCD4000B37E14 /* Assets.xcassets */,
 				8CD2B7F42C5DCD4000B37E14 /* Preview Content */,
 				8CD2B8182C5DCDDC00B37E14 /* IMCView.swift */,
+				8CD2B81A2C5E06ED00B37E14 /* IMCResult.swift */,
 			);
 			path = IMCApp;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				8CD2B7F12C5DCD3F00B37E14 /* ContentView.swift in Sources */,
 				8CD2B8192C5DCDDC00B37E14 /* IMCView.swift in Sources */,
+				8CD2B81B2C5E06ED00B37E14 /* IMCResult.swift in Sources */,
 				8CD2B7EF2C5DCD3F00B37E14 /* IMCAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct IMCAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IMCView()
         }
     }
 }
